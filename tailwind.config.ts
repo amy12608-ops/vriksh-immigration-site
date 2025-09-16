@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // VrikshImmigration Brand Colors
+        "trust-blue": "hsl(var(--trust-blue))",
+        "success-green": "hsl(var(--success-green))",
+        "professional-navy": "hsl(var(--professional-navy))",
+      },
+      backgroundImage: {
+        "hero-gradient": "var(--hero-gradient)",
+      },
+      boxShadow: {
+        "soft": "var(--shadow-soft)",
+        "medium": "var(--shadow-medium)",
+        "strong": "var(--shadow-strong)",
+      },
+      transitionProperty: {
+        "smooth": "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
