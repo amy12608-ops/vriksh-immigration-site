@@ -69,7 +69,7 @@ export function Layout({ children }: LayoutProps) {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-6">
               <NavigationMenu>
-                <NavigationMenuList>
+                <NavigationMenuList className="space-x-6">
                   <NavigationMenuItem>
                     <Link 
                       to="/"
