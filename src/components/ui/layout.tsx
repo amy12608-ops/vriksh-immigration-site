@@ -67,7 +67,7 @@ export function Layout({ children }: LayoutProps) {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
+            <nav className="hidden lg:flex items-center space-x-6">
               <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem>

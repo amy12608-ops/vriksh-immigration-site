@@ -15,11 +15,8 @@ const Index = () => {
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto">
             Professional immigration services by CICC-licensed consultants. Let us guide you through every step of your Canadian immigration journey.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <BookConsultationButton className="text-lg px-8 py-4 bg-white text-primary hover:bg-white/90" />
-            <Button variant="outline" size="lg" asChild className="border-white text-white hover:bg-white hover:text-primary">
-              <a href="/services">Explore Services</a>
-            </Button>
           </div>
         </div>
       </section>
